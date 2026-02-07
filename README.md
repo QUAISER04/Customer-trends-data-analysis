@@ -3,8 +3,10 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![SQL](https://img.shields.io/badge/SQL-SQLite-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-trends-data-analysis-fenwddqnxu3fn3vvv5wgjr.streamlit.app/)
 
 Hi! 👋 This project analyzes customer shopping data to understand buying habits. I built this using **Python** and **SQL** to find interesting patterns in the data.
+
 
 
 ## 📌 Usage
