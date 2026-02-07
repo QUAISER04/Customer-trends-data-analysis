@@ -1,62 +1,45 @@
-# Customer Trends & Shopping Behavior Analysis
+# 🛍️ Customer Trends Analysis
 
-A comprehensive data analytics project analyzing customer shopping behavior using **Python**, **SQL**, and **Streamlit**.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![SQL](https://img.shields.io/badge/SQL-SQLite-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 
-## 📌 Project Overview
-This project simulates an end-to-end data analytics workflow to translate raw retail data into strategic business intelligence. It covers:
--   **Data Cleaning & ETL**: Processing raw CSV data using Python.
--   **Database Management**: Storing structured data in a SQL database (SQLite/PostgreSQL).
--   **Data Analysis**: Executing complex SQL queries to uncover insights.
--   **Visualization**: Interactive Dashboard using Streamlit.
+Hi! 👋 This project analyzes customer shopping data to understand buying habits. I built this using **Python** and **SQL** to find interesting patterns in the data.
 
-## 🛠️ Tech Stack
--   **Language**: Python 3.10+
--   **Database**: SQLite (Default), PostgreSQL, MySQL, or MS SQL Server
--   **Libraries**: Pandas, SQLAlchemy, Plotly, Streamlit
--   **Analysis**: SQL (Aggregations, Joins, Window Functions)
+
+## 📌 Usage
+This project helps answer questions like:
+- Which products are the most popular?
+- Who spends more money: men or women?
+- How does age affect shopping habits?
+
+## 🛠️ Tools Used
+-   **Python**: For coding the logic.
+-   **SQL**: For querying the database.
+-   **Streamlit**: To build the interactive dashboard.
+-   **Pandas**: To organize and clean the data.
 
 ## 🚀 How to Run
 
-### 1. Setup Environment
+### 1. Install Requirements
+First, install the necessary libraries:
 ```bash
-# Clone the repository
-git clone https://github.com/quaisershahid/customer-trends-data-analysis-SQL-Python-PowerBI.git
-cd customer-trends-data-analysis-SQL-Python-PowerBI
-
-# Create and activate virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 2. Configure Database
-The project uses **SQLite** by default (no setup required).
-To use other databases, rename `.env.example` to `.env` and update credentials.
-
-### 3. Run ETL Pipeline
-Clean the raw data and populate the database:
+### 2. Prepare the Data
+Run this script to clean the data and save it to the database:
 ```bash
 python src/etl_pipeline.py
 ```
 
-### 4. Launch Dashboard
-Visualize the insights interactively:
+### 3. Open the Dashboard
+Run this command to see the charts and insights:
 ```bash
 streamlit run src/dashboard.py
 ```
 
-## 📊 Key Insights
--   **Revenue Analysis**: Breakdown by gender, age group, and location.
--   **Product Performance**: Top-rated items and category popularity.
--   **Customer Behavior**: Subscription impact on spending and retention analysis.
+## 👨‍💻 Author
+**Quaiser Shahid**
 
-## 👨‍💻 About the Author
-Hey, I’m Quaiser Shahid.
-
-### 🚀 Stay Connected
-If you enjoyed this project and want to keep learning and growing as a data analyst, let’s stay in touch!
-
-## 📜 License
-MIT License
+If you like this project, feel free to star the repo! ⭐
