@@ -8,5 +8,6 @@ pymysql
 pyodbc
 python-dotenv
 ipykernel
-streamlit
+streamlit>=1.40.0
 plotly
+altair<5
